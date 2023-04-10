@@ -285,8 +285,8 @@ g.addAresta(4, 8, 5)
 g.addAresta(8, 9, 1)
 
 g.addAresta(3, 7, 1)
-# g.addAresta(7, 4, 1)
-# g.addAresta(4, 2, 1)
+g.addAresta(7, 4, 1)
+g.addAresta(4, 2, 1)
 
 # print("BUSCA EM LARGURA")
 # caminho(g.bl(0, 9))
@@ -302,9 +302,4 @@ g.addAresta(3, 7, 1)
 
 # print("BUSCA MELHOR ESCOLHA")
 # caminho(g.melhor_escolha(0, 9, False))
-
-
-
-
-
 
